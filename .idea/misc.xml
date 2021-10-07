@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/dialog_user_data_show.xml" value="0.2140625" />
+        <entry key="app/src/main/res/layout/dialog_user_profile_details.xml" value="0.2140625" />
+        <entry key="app/src/main/res/layout/fragment_color_list.xml" value="0.2140625" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.2140625" />
+        <entry key="app/src/main/res/layout/fragment_profile_color.xml" value="0.2140625" />
+        <entry key="app/src/main/res/layout/fragment_sign_in.xml" value="0.2140625" />
+        <entry key="app/src/main/res/layout/fragment_sign_up.xml" value="0.2140625" />
+        <entry key="app/src/main/res/layout/fragment_to_do.xml" value="0.2140625" />
+        <entry key="app/src/main/res/layout/fragment_welcome.xml" value="0.2140625" />
+        <entry key="app/src/main/res/layout/item_row_color.xml" value="0.2140625" />
+        <entry key="app/src/main/res/layout/item_row_student.xml" value="0.2140625" />
+        <entry key="app/src/main/res/layout/item_row_todo.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

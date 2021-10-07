@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">ProjectInfinity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="email_or_username">Email or Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="let_s_sign_you_in">Let\'s Sign You In.</string>
+    <string name="privacy_policy">Yes, I agree to the Terms and Conditions and to the Privacy Policy.</string>
+
+
+    <string name="create_an_account">Create an Account</string>
+
+    <string name="welcome_back_ngood_to_see_you_again">Welcome back.\nGood to see you again!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Welcome!</string>
+    <string name="create_a_account_or_sign_in_to_begin">Create a account or Sign in to begin</string>
+    <string name="example_gmail_com">jhondoe@gmail.com</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="password_label">Password</string>
+    <string name="email_address_label">Email Address</string>
+    <string name="sign_in_with_email">Sign in with Email</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="create_a_account">Create a account</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="occupation">Occupation</string>
+    <string name="company_name">Company Name</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="example_name">David</string>
+    <string name="Example_last_name">Doe</string>
+    <string name="example_phone_no">9876543210</string>
+    <string name="example_email">daviddoe@abc.com</string>
+    <string name="example_occupation">Marketing manager</string>
+    <string name="example_company">XYZ Company</string>
+    <string name="title_message">Hello my name is prince,how are you</string>
+
+
+    <string name="profile_details">Profile Details</string>
+    <string name="john_doe">John Doe</string>
+    <string name="change_password">Change Password</string>
+    <string name="account_info">Account info</string>
+    <string name="Dashboard">Dashboard</string>
+    <string name="example_password">1234567889</string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="enter_phone">Enter Phone</string>
+    <string name="enter_occupation">Enter Occupation</string>
+    <string name="enter_company_name">Enter Company Name</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="Profile">Profile</string>
+    <string name="name">Name</string>
+    <string name="time">time</string>
+    <string name="feeds">Feeds</string>
+    <string name="Please_Enter_Your_Email">Please Enter Your Email</string>
+    <string name="Please_Enter_Valid_Email">Please Enter Valid Email</string>
+    <string name="Please_Enter_Your_Password">Please Enter Your Password</string>
+    <string name="Please_Enter_Valid_Password">Please Enter Valid Password</string>
+    <string name="Please_Enter_Occupation">Please Enter Occupation</string>
+    <string name="Please_Enter_Valid_Occupation">Please Enter Valid Occupation</string>
+    <string name="Please_Enter_Valid_Phone_Number">Please Enter Valid Phone Number</string>
+    <string name="Please_Enter_Phone_Number">Please Enter Phone Number</string>
+    <string name="Please_Enter_Last_Name">Please Enter Last Name</string>
+    <string name="Please_First_Name">Please First Name</string>
+
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="helloo_my_name_is_prince">Helloo my name is prince</string>
+    <string name="profile">Profile</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="EXAMPLE">prince</string>
+    <string name="close">Close</string>
+
+    <string name="standard">standard</string>
+    <string name="first_name1">first_name</string>
+    <string name="color">Color</string>
+    <string name="year">Year</string>
+    <string name="loader_loading">Loading..</string>
+    <string name="color_list">Color List</string>
+    <string name="Profile_dashboard_title">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="setting">Setting</string>
+    <string name="add_new_todo">Add New ToDo</string>
+    <string name="todo_name">Todo Name</string>
+    <string name="title">Title</string>
+    <string name="todo_discription">ToDo Description</string>
+    <string name="todo_title">Task Name</string>
+    <string name="discription">Task Description</string>
+    <string name="title_activity_todo">TodoActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="Please_Enter_Task_Description">Please Enter Task Description</string>
+    <string name="Please_Enter_Image">Please Enter Image</string>
+
+    <string name="Please_Enter_Task_Name">Please Enter Task Name</string>
+    <string name="delete">DELETE</string>
+    <string name="status">Status</string>
+    <string name="description">Description</string>
+    <string name="completed">Completed</string>
+    <string name="upload_image">Upload Image</string>
+
+</resources>

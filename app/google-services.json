@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "498224845244",
+    "project_id": "projectinfinity-27c37",
+    "storage_bucket": "projectinfinity-27c37.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498224845244:android:61499d31e040f4de6c1bb9",
+        "android_client_info": {
+          "package_name": "com.projectinfinity.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498224845244-g5c3gjtg2uo6fssfd68583t0he7qseio.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.projectinfinity.app",
+            "certificate_hash": "cea3ac4fedae8cbb6496e94470b2afda91c20707"
+          }
+        },
+        {
+          "client_id": "498224845244-ucnf70vf0lp1eg450k87jr9jf4sspel9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3AAdZo3enj95yJHqHUwzHLPL90NzUI2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498224845244-ucnf70vf0lp1eg450k87jr9jf4sspel9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".dashboardbottom.ui.fragment.ToDoFragment">
+
+
+    <ImageView
+        android:id="@+id/iv_back_to_do_fragment"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/back_arrow"
+        app:layout_constraintStart_toStartOf="@id/glv_05"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glh_08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".08" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glh_31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".31" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv_05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv_95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".95" />
+
+    <TextView
+        android:id="@+id/tv_message_new_todo_fragment_todo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semi_bold"
+        android:text="@string/add_new_todo"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+
+        app:layout_constraintStart_toStartOf="@id/glv_05"
+        app:layout_constraintTop_toBottomOf="@id/glh_08" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_profile_image_fragment_to_do"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toEndOf="@id/glv_05"
+        app:layout_constraintTop_toBottomOf="@id/tv_message_new_todo_fragment_todo">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_profile_picture_duplicate"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize10Percent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profile_picture"
+            android:paddingEnd="7dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_profile_picture"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize10Percent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profile_picture"
+            android:paddingEnd="7dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+          />
+
+        <ImageView
+            android:id="@+id/iv_upload_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/add_photo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="@id/iv_profile_picture"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TextView
+        android:id="@+id/label_title"
+        style="@style/ToDo_fragment_Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/todo_title"
+        app:layout_constraintStart_toStartOf="@id/glv_05"
+        app:layout_constraintTop_toBottomOf="@+id/glh_31" />
+
+    <EditText
+        android:id="@+id/et_task_name_fragment_todo"
+        style="@style/ToDo_fragment_EditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/et_style"
+        android:hint="@string/todo_title"
+        app:layout_constraintEnd_toEndOf="@id/glv_95"
+        app:layout_constraintStart_toStartOf="@id/glv_05"
+        app:layout_constraintTop_toBottomOf="@id/label_title" />
+
+    <TextView
+        android:id="@+id/tv_todo_discription"
+        style="@style/ToDo_fragment_Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/todo_discription"
+        app:layout_constraintStart_toStartOf="@id/glv_05"
+        app:layout_constraintTop_toBottomOf="@id/et_task_name_fragment_todo" />
+
+    <EditText
+        android:id="@+id/et_todo_description_fragment_todo"
+        style="@style/ToDo_fragment_EditText"
+        android:layout_width="0dp"
+        android:layout_height="140dp"
+        android:background="@drawable/et_style"
+        android:gravity="start|top"
+        android:hint="@string/discription"
+        android:inputType="textMultiLine"
+        app:layout_constraintEnd_toEndOf="@id/glv_95"
+        app:layout_constraintStart_toStartOf="@id/glv_05"
+        app:layout_constraintTop_toBottomOf="@id/tv_todo_discription" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_to_do_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/Todo_floating_button"
+        android:src="@drawable/todo_add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/glv_95"
+        app:layout_constraintStart_toStartOf="@id/glv_05"
+        app:tint="@color/white" />
+
+    <CheckBox
+        android:id="@+id/cb_completed_fragment_to_do"
+        style="@style/ToDo_fragment_EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="@string/completed"
+        app:layout_constraintStart_toStartOf="@id/glv_05"
+        app:layout_constraintTop_toBottomOf="@+id/et_todo_description_fragment_todo" />
+</androidx.constraintlayout.widget.ConstraintLayout>
